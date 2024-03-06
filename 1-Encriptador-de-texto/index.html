@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="./css/reset.css"> -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Encriptador de Texto</title>
+</head>
+<body>
+    <header>
+        <img src="./images/logo.png" class="logo" alt="Logo de Alura">
+    </header>
+    <main>
+        <section>
+                <textarea id="text-area" class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div>
+                <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button id="btn-encriptar" class="btn-encriptar">Encriptar</button>
+                <button id="btn-desencriptar" class="btn-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea id="mensaje" class="mensaje" cols="20" rows="10"></textarea>
+            <div>
+                <button id="btn-copiar-pegar" class="btn-copiar-pegar">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <!-- <p>Codigo fuente en <a href="https://github.com/euler206/Challenges-Alura/1-Encriptador-de-texto" target="_blank"><img src="./images/logo-GitHub.png" class="logo-github"></a></p> -->
+        <!-- <p>Desarrollado por Euler Basante Mora <a href="https://www.linkedin.com/in/euler206" target="_blank"><img src="./images/logo-LinkedIn.png" class="logo-linkedin"> </a></p> -->
+    </footer>
+
+    <script src="./js/logica.js" type="module"></script>
+</body>
+</html>
